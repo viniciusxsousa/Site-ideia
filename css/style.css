@@ -19,6 +19,7 @@ body{
     position: absolute;
     color: #011B66;
     display: inline-block;
+    margin-top: 10px;
     right: 0;
     top: 0;
 }
@@ -26,4 +27,12 @@ body{
 .menu li{
     display: inline-block;
     list-style-type: none;
+    padding: 16px;
 }
+
+.menu li:hover{
+    background-color: #011B66;
+    border-radius: 5px;
+    color: white;
+}
+
