@@ -2,6 +2,15 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.botao{
+    color: white;
+    padding: 10px 22px;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
 .margem{
     width: 80%;
     margin: auto;
@@ -52,7 +61,7 @@ body{
 
 .card-pacote-ideia{
     background-color: white;
-    width: 800px;
+    width: 700px;
     margin: auto;
     padding: 15px 30px;
     border-radius: 10px;
@@ -83,8 +92,56 @@ body{
     font-weight: 500;
 }
 
-/* Formatação da GRID */
+.icone-pacote{
+    transform: translateX(20px);
+}
+
+.col-1-3:nth-child(1) p{
+    margin: 0;
+}
+
+/*Iniciando GRID*/
+.row{
+    overflow: auto;
+}
+
 .col-1-3{
-    width: 31%;
+    margin: 0 1%;
+}
+
+.col-1-3:nth-child(1){
+    width: 22%;
     float: left;
+}
+
+.col-1-3:nth-child(2){
+    width: 30%;
+    float: left;
+}
+
+.col-1-3:nth-child(3){
+    width: 40%;
+    float: left;
+}
+
+/* Fim da GRID */
+
+.col-1-3:nth-child(1){
+    transform: translateY(50px);
+}
+
+.col-1-3:nth-child(2), .col-1-3:nth-child(3){
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.col-1-3 i{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.btn-pacote-ideia{
+    display: inline-block;
+    background-color: #0028a0;
+    transform: translatex(290px);
 }
