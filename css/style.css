@@ -32,6 +32,7 @@ body{
     margin-top: 10px;
     right: 0;
     top: 0;
+    z-index: 10000;
 }
 
 .menu li{
@@ -44,6 +45,91 @@ body{
     background-color: #011B66;
     border-radius: 5px;
     color: white;
+}
+
+.produtos{
+    margin-bottom: 30px;
+}
+
+.produtos-title{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+    color: #011B66;
+}
+
+.produtos-card-auxiliar{
+    overflow: auto;
+    width: 80%;
+    margin: auto;
+}
+
+.produtos-card{
+    border-radius: 6px;
+    border-top: 6px solid;
+    margin-left: 15px;
+    width: 200px;
+    height: 250px;
+    padding: 20px;
+    box-shadow: 0px 7px 16px #d7e0ea;
+    float: left;
+}
+
+.produtos-card p{
+    text-transform: uppercase;
+    color: #212529;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.produtos-card img{
+    max-width: 100%;
+}
+
+.produto-classecon{
+    border-color: #3B308B;
+}
+
+.produto-classecon .botao{
+    display: inline-block;
+    background-color: #009B6E;
+    padding: 10px 50px;
+    transform: translate(30px, 20px);
+}
+
+.produto-classimoveis{
+    border-color: #F58220;
+}
+
+.produto-classimoveis .botao{
+    display: inline-block;
+    background-color: #808285;
+    padding: 10px 50px;
+    transform: translate(30px, 42px);
+}
+
+.produto-classvendas{
+    border-color: #366B11;
+}
+
+.produto-classvendas .botao{
+    display: inline-block;
+    background-color: #366B11;
+    padding: 10px 50px;
+    transform: translate(30px, 43px);
+}
+
+.produto-classobras{
+    border-color: #CC3629
+}
+
+.produto-classobras .botao{
+    display: inline-block;
+    background-color: #CC3629;
+    padding: 10px 50px;
+    transform: translate(30px, 43px);
 }
 
 .pacote-ideia{
