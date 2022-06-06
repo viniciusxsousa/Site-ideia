@@ -231,3 +231,27 @@ body{
     background-color: #0028a0;
     transform: translatex(290px);
 }
+
+.parceiros__title{
+    font-size: 28px;
+    font-weight: 400;
+    color: #0028a0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.parceiros__logos img{
+    display: inline-block;
+    width: 160px;
+    height: 80px;
+}
+
+.parceiros__logos{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
