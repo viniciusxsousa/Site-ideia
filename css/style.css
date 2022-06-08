@@ -226,6 +226,15 @@ body{
     margin-right: 5px;
 }
 
+.col-1-2{
+    float: left;
+    width: 45%;
+}
+
+.col-1-2:nth-child(1){
+    margin-right: 5%;
+}
+
 .btn-pacote-ideia{
     display: inline-block;
     background-color: #0028a0;
@@ -255,3 +264,67 @@ body{
     flex-wrap: wrap;
 }
 
+.contato{
+    background-color: gray;
+    padding-top: 50px;
+    /* height: 350px; */
+    color: white;
+}
+
+.contato__title{
+    font-size: 33px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.contato__description{
+    font-size: 19px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.contato__contatos{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.contato__contatos li:nth-child(1){
+    margin-bottom: 5px;
+}
+
+.contato__contatos i{
+    font-size: 30px;
+    margin-right: 8px;
+    position: relative;
+    top: 5px
+}
+
+.contato__forms label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contato__forms input{
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.contato__forms textarea{
+    margin-bottom: 20px;
+}
+
+.contato__forms input[type="submit"]{
+    background-color: #0028a0;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 50px;
+    border: 2px solid white;
+    border-radius: 15px;
+    cursor: pointer;
+}
