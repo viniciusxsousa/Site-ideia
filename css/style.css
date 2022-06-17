@@ -23,6 +23,7 @@ body{
     box-shadow: 0px 2px 5px rgba(0, 0, 0, .5);
     width: 100%;
     background-color: white;
+    padding: 10px 0;
 }
 
 .menu{
@@ -327,4 +328,16 @@ body{
     border: 2px solid white;
     border-radius: 15px;
     cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px 0;
+    color: #4F5052;
+}
+
+.footer__logo{
+    margin-right: 20vw;
 }
