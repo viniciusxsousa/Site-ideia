@@ -14,3 +14,7 @@ Este projeto consiste no conceito de um site desenvolvido para a empresa Ideia T
 * [particles.js](https://vincentgarreau.com/particles.js/)
 
 ### :desktop_computer: Previa
+
+
+https://github.com/viniciusxsousa/Site-ideia/assets/81489425/56dd994e-8f1d-4aff-864d-a953ec933c63
+
